@@ -112,3 +112,90 @@ a:hover {
 .aqibtxt{
     color: black;
 }
+
+.aqi-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.half{
+    flex-grow: 1;
+}
+
+.aqi-card{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.card-large{
+    height:100px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+}
+
+.card-small{
+    height: 110px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 8px;
+}
+.moderate{
+    background-color: #FFDE33;
+    color: black;
+}
+
+.good{
+    background-color: #009966;
+    color: white;
+}
+
+.mild-unhealthy{
+    background-color: #ff9933;
+    color:black;
+}
+.aqi-no{
+    display: flex;
+    flex-grow: 3;
+    border-right: 1px solid #C4C4C4;
+    justify-content: center;
+    align-items: center;
+}
+
+.large-card-ranking{
+    display: flex;
+    flex-grow: 7;
+    justify-content: center;
+    align-items: center;
+}
+
+.particulate-name{
+    font-weight: normal;
+    font-size:16px;
+    border-bottom: 1px solid black;
+    width:100%;
+    flex-grow: 1;
+    text-align:center;
+}
+
+.aqi-no-small{
+    display: flex;
+    flex-grow: 19;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+}
+

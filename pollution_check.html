@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="index.css">
     <title>Air Quality 101 - Check Pollution Levels</title>
 </head>
+
 <body>
     <nav>
         <li class="nav-text"><a href="index.html">Home</a></li>
@@ -16,9 +18,38 @@
     </nav>
     <main class="content">
         <h1 class="page_heading">Check Pollution Level</h1>
-        <section class="container card">
-
+        <section class="aqi-container container card">
+            <h2 class="card-title">Leeds, UK</h2>
+            <div class="flex-row">
+                <div class="half">
+                    <h3>Overall Air Quality Ranking:</h3>
+                    <div class="aqi-card card-large moderate">
+                        <div class="aqi-no">51</div>
+                        <div class="large-card-ranking">Moderate</div>
+                    </div>
+                    <small><a href="aqi_guide.html">What do these numbers mean?</a></small>
+                </div>
+                <div class="half">
+                    <h3>By Particulate Type:</h3>
+                    <div class="flex-row">
+                        <div class="aqi-card card-small moderate">
+                            <div class="particulate-name">PM2.5</div>
+                            <div class="aqi-no-small">51</div>
+                        </div>
+                        <div class="aqi-card card-small good">
+                            <div class="particulate-name">NO<sub>2</sub></div>
+                            <div class="aqi-no-small">22</div>
+                        </div>
+                        <div class="aqi-card card-small mild-unhealthy">
+                            <div class="particulate-name">SO<sub>2</sub></div>
+                            <div class="aqi-no-small">103</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <small>NOTE: this is sample data. Actual data loading will be implemented in Coursework 2</small>
         </section>
     </main>
 </body>
+
 </html>
